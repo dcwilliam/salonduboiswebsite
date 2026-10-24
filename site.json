@@ -1,0 +1,132 @@
+{
+  "_readme": "Edit this file to change business info, hours, reviews and prices. Every page reads from it when the site is built.",
+
+  "name": "Salon DuBois",
+  "legalName": "Salon DuBois, LLC",
+  "siteUrl": "https://www.salondubois.net",
+  "phone": "(860) 567-4421",
+  "phoneE164": "+18605674421",
+  "address": {
+    "street": "499 Bantam Rd, Ste. B",
+    "city": "Litchfield",
+    "state": "CT",
+    "zip": "06759"
+  },
+  "mapsUrl": "https://goo.gl/maps/24tqpoH7MhR2",
+  "mapsEmbedQuery": "Salon DuBois, 499 Bantam Rd, Litchfield, CT 06759",
+
+  "hours": [
+    { "day": "Sunday",    "open": null,    "close": null },
+    { "day": "Monday",    "open": null,    "close": null },
+    { "day": "Tuesday",   "open": null,    "close": null },
+    { "day": "Wednesday", "open": "09:00", "close": "18:00" },
+    { "day": "Thursday",  "open": "09:00", "close": "20:00" },
+    { "day": "Friday",    "open": "09:00", "close": "18:00" },
+    { "day": "Saturday",  "open": "09:00", "close": "15:00" }
+  ],
+  "hoursNote": "By appointment. Please call to schedule.",
+
+  "social": {
+    "facebook": "",
+    "instagram": ""
+  },
+
+  "bookingUrl": "",
+
+  "newClientOffer": "",
+
+  "rating": {
+    "_note": "Fill in from the Google Business Profile, e.g. value 4.9 and count 52. Leave value empty to hide.",
+    "value": "",
+    "count": "",
+    "reviewsUrl": ""
+  },
+
+  "reviews": [
+    {
+      "text": "After trying a few other salons I wasn't expecting anything spectacular, but I was pleasantly surprised at how great my experience was with Salon DuBois.",
+      "author": "Sarah B."
+    },
+    {
+      "text": "It's always a little challenging for me to find a salon where I know I am going to receive professional service for a decent price. Thankfully, Alan took the time to understand exactly what I was looking for and gave me just what I wanted on my first visit.",
+      "author": "Derek"
+    },
+    {
+      "text": "The knowledgeable and friendly staff at Salon DuBois are top flight professionals. Alan is a lifelong student of his craft who is always learning and clearly understands modern trends.",
+      "author": "Derek"
+    }
+  ],
+
+  "tracking": {
+    "_note": "Paste IDs here when ready. Empty values are left out of the pages.",
+    "cloudflareAnalyticsToken": "",
+    "googleAdsId": "",
+    "googleAdsCallConversionLabel": ""
+  },
+
+  "credit": { "text": "", "url": "" },
+
+  "prices": [
+    {
+      "id": "hair-design",
+      "title": "Hair Design",
+      "items": [
+        { "name": "Women's Design & Blow-dry", "price": "75" },
+        { "name": "Color & Blow-dry", "price": "100" },
+        { "name": "Color, Cut & Blow-dry", "price": "145" },
+        { "name": "Men's Design", "price": "40" },
+        { "name": "Toddler Cuts", "price": "20" },
+        { "name": "Baby's First Cut", "price": "Free", "note": "On the house" },
+        { "name": "Bangs", "price": "8" },
+        { "name": "Shampoo & Blow-dry", "price": "40" },
+        { "name": "with Flat or Curling Iron", "price": "40", "from": true, "sub": true },
+        { "name": "Set with Comb Out", "price": "30", "sub": true },
+        { "name": "Formal Updo", "price": "75", "from": true }
+      ]
+    },
+    {
+      "id": "men",
+      "title": "Just for Men",
+      "items": [
+        { "name": "Men's Design", "price": "40" },
+        { "name": "Clipper Design", "price": "35" },
+        { "name": "Beard & Moustache", "price": "30" },
+        { "name": "Men's Gray Blending", "price": "50", "note": "A natural, youthful look for hair and sideburns" }
+      ]
+    },
+    {
+      "id": "color",
+      "title": "Color Services",
+      "items": [
+        { "name": "Single Process", "price": "100" },
+        { "name": "Retouch Single Process", "price": "80" },
+        { "name": "Double Process", "price": "120" },
+        { "name": "Retouch Double Process", "price": "90" }
+      ]
+    },
+    {
+      "id": "highlights",
+      "title": "Highlighting & Lowlighting",
+      "items": [
+        { "name": "Full Foil", "price": "150", "from": true },
+        { "name": "Partial Foil", "price": "90" },
+        { "name": "Face Frame", "price": "50" },
+        { "name": "Part Touch Up", "price": "45" },
+        { "name": "Multidimensional Color", "price": "150", "from": true, "note": "Three or more shades customized to accentuate your features. Our ultimate tailored color service." },
+        { "name": "Corrective Color", "price": "By consultation", "note": "Consultation required and priced accordingly" }
+      ]
+    },
+    {
+      "id": "texture",
+      "title": "Texture & Treatments",
+      "items": [
+        { "name": "Permanent Wave with Haircut & Style", "price": "150", "from": true },
+        { "name": "Custom Perming", "price": "150", "from": true, "note": "Cut not included" },
+        { "name": "Partial Wave", "price": "75" },
+        { "name": "Moroccan Hydrating Mask", "price": "25" },
+        { "name": "Chocolate Intense Repair", "price": "25" }
+      ],
+      "footnote": "Heat-intensive conditioning treatments add shine and reduce frizz."
+    }
+  ]
+}

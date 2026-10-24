@@ -1,0 +1,9 @@
+# Old Wix URLs → new pages (keeps Google links and bookmarks working)
+/blank-bs5hg      /womens-hair/        301
+/blank-bs5hg/     /womens-hair/        301
+/blank-nyl51      /mens-hair/          301
+/blank-nyl51/     /mens-hair/          301
+/perm             /perms-treatments/   301
+/perm/            /perms-treatments/   301
+/home             /                    301
+/services         /womens-hair/        301

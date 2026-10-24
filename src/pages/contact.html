@@ -1,0 +1,31 @@
+<!--meta {
+  "path": "/contact/",
+  "title": "Contact & Hours | Salon DuBois, 499 Bantam Rd, Litchfield CT",
+  "description": "Call (860) 567-4421 to schedule your first visit. Salon DuBois, 499 Bantam Rd, Ste. B, Litchfield, CT 06759. Open Wednesday through Saturday."
+} -->
+<div class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">Contact</p>
+    <h1>Call to schedule your first visit</h1>
+  </div>
+</div>
+
+<section class="wrap contact-grid">
+  <div class="card">
+    <h2 class="card-h">Appointments</h2>
+    <p class="big-phone"><a href="tel:{{site.phoneE164}}" data-call>{{site.phone}}</a></p>
+    <div class="cta-buttons">{{bookButtons}}</div>
+    <h2 class="card-h">Find us</h2>
+    <p><a href="{{site.mapsUrl}}" rel="noopener" target="_blank">{{site.address.street}}<br>{{site.address.city}}, {{site.address.state}} {{site.address.zip}}</a></p>
+    <p><a class="text-link" href="{{site.mapsUrl}}" rel="noopener" target="_blank">Get directions →</a></p>
+    {{social}}
+  </div>
+  <div class="card">
+    <h2 class="card-h">Hours</h2>
+    {{hours}}
+  </div>
+</section>
+
+<section class="wrap section">
+  {{mapEmbed}}
+</section>

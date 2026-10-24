@@ -1,0 +1,26 @@
+<header class="site-header">
+  <div class="topline">
+    <div class="wrap topline-inner">
+      <a class="topline-item" href="{{site.mapsUrl}}" rel="noopener" target="_blank">{{addressLine}}</a>
+      <span class="topline-item hide-sm">{{hoursShort}}</span>
+      <a class="topline-item topline-phone" href="tel:{{site.phoneE164}}" data-call>{{site.phone}}</a>
+    </div>
+  </div>
+  <div class="wrap brand-row">
+    <a class="brand" href="/" aria-label="Salon DuBois, home">
+      <img class="brand-mark" src="/assets/img/logo-mark-240.png" width="120" height="125" alt="">
+      <span class="brand-text" aria-hidden="true">
+        <span class="brand-salon">Salon</span>
+        <span class="brand-name">DuBois</span>
+        <span class="brand-llc">LLC</span>
+        <span class="brand-rule"></span>
+        <span class="brand-town">Litchfield, Ct</span>
+      </span>
+    </a>
+    <a class="btn btn-call header-call" href="tel:{{site.phoneE164}}" data-call>Call to Book</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Menu</span></button>
+  </div>
+  <nav id="site-nav" class="site-nav" aria-label="Main">
+    <div class="wrap">{{page.nav}}</div>
+  </nav>
+</header>

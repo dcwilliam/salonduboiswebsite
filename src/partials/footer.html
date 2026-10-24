@@ -1,0 +1,29 @@
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <img src="/assets/img/logo-mark-240.png" width="64" height="67" alt="">
+      <p><strong>{{site.name}}</strong><br>
+      <a href="{{site.mapsUrl}}" rel="noopener" target="_blank">{{site.address.street}}<br>{{site.address.city}}, {{site.address.state}} {{site.address.zip}}</a></p>
+      <p><a class="footer-phone" href="tel:{{site.phoneE164}}" data-call>{{site.phone}}</a></p>
+      {{social}}
+    </div>
+    <div>
+      <h2 class="footer-h">Hours</h2>
+      {{hours}}
+    </div>
+    <div>
+      <h2 class="footer-h">Services</h2>
+      <ul class="footer-links">
+        <li><a href="/womens-hair/">Women's cuts &amp; styling</a></li>
+        <li><a href="/mens-hair/">Men's cuts &amp; gray blending</a></li>
+        <li><a href="/color/">Color &amp; highlights</a></li>
+        <li><a href="/perms-treatments/">Perms &amp; treatments</a></li>
+        <li><a href="/skin-care/">Skin care</a></li>
+        <li><a href="/prices/">Full price list</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-base">
+    <p>© {{year}} {{site.legalName}}{{credit}}</p>
+  </div>
+</footer>

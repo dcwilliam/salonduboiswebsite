@@ -1,0 +1,76 @@
+<!--meta {
+  "path": "/",
+  "title": "Salon DuBois | Hair Salon in Litchfield, CT",
+  "description": "Salon DuBois is a full-service hair salon on Bantam Road in Litchfield, CT. Haircuts for women and men, color, highlights, perms and skin care. Call (860) 567-4421."
+} -->
+<section class="banner">
+  <picture>
+    <source srcset="/assets/img/salon-building.webp" type="image/webp">
+    <img src="/assets/img/salon-building.jpg" width="1505" height="179" alt="The Salon DuBois building on Bantam Road in Litchfield">
+  </picture>
+</section>
+
+<section class="intro wrap">
+  <div class="intro-text">
+    <p class="eyebrow">Hair studio · Litchfield, Connecticut</p>
+    <h1>We know hair. <em>Now we'd love to know you.</em></h1>
+    <p class="lede">For over 30 years, Salon DuBois has been cutting, coloring and styling hair for women and men from all over Connecticut and New England. We take the time to learn your hair and your personal style before we pick up the scissors.</p>
+    <div class="intro-actions">{{bookButtons}}</div>
+    {{rating}}
+  </div>
+  <div class="intro-hours card">
+    <h2 class="card-h">Hours</h2>
+    {{hours}}
+    <p class="intro-address"><a href="{{site.mapsUrl}}" rel="noopener" target="_blank">{{addressLine}}</a></p>
+  </div>
+</section>
+
+<section class="tiles wrap" aria-label="Services">
+  <a class="tile" href="/womens-hair/">
+    <span class="tile-label">Women</span>
+    <img src="/assets/img/women.webp" width="547" height="1004" alt="Woman with a soft auburn cut and bangs" loading="lazy">
+    <span class="tile-foot">Cuts, blow-dry &amp; styling</span>
+  </a>
+  <a class="tile" href="/mens-hair/">
+    <span class="tile-label">Men</span>
+    <img src="/assets/img/men.webp" width="800" height="802" alt="Man with a classic tailored haircut" loading="lazy">
+    <span class="tile-foot">Cuts, beard &amp; gray blending</span>
+  </a>
+  <a class="tile" href="/color/">
+    <span class="tile-label">Color</span>
+    <span class="tile-pattern"><span>Single &amp; double process</span><span>Highlights &amp; lowlights</span><span>Multidimensional color</span><span>Corrective color</span></span>
+    <span class="tile-foot">Explore color services</span>
+  </a>
+  <a class="tile" href="/perms-treatments/">
+    <span class="tile-label">Perms</span>
+    <img src="/assets/img/curls.webp" width="882" height="851" alt="Woman with soft natural-looking curls" loading="lazy">
+    <span class="tile-foot">Perms, waves &amp; conditioning</span>
+  </a>
+  <a class="tile" href="/skin-care/">
+    <span class="tile-label">Skin Care</span>
+    <span class="tile-pattern alt"><span>Full skin care services</span><span>Call for details</span></span>
+    <span class="tile-foot">Learn more</span>
+  </a>
+  <a class="tile" href="/prices/">
+    <span class="tile-label">Prices</span>
+    <span class="tile-pattern dark"><span>Women's design from $75</span><span>Men's design from $40</span><span>Color from $100</span></span>
+    <span class="tile-foot">See the full service menu</span>
+  </a>
+</section>
+
+<section class="wrap section">
+  <h2 class="section-h">What clients say</h2>
+  {{reviews}}
+</section>
+
+<section class="wrap section visit">
+  <div>
+    <h2 class="section-h">Visit the studio</h2>
+    <p>You'll find us on picturesque Bantam Road (Route 202), right near the historic White Memorial.</p>
+    <p><a href="{{site.mapsUrl}}" rel="noopener" target="_blank">{{addressLine}}</a><br><a href="tel:{{site.phoneE164}}" data-call>{{site.phone}}</a></p>
+    <p><a class="text-link" href="{{site.mapsUrl}}" rel="noopener" target="_blank">Get directions →</a></p>
+  </div>
+  {{mapEmbed}}
+</section>
+
+{{bookCta}}
