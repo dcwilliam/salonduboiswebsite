@@ -1,0 +1,11 @@
+{
+  "name": "salonduboiswebsite",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "preview": "npx http-server dist",
+    "deploy": "node build.mjs && npx wrangler deploy"
+  },
+  "engines": { "node": ">=18" }
+}

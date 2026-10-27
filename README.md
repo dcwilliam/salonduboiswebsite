@@ -29,12 +29,15 @@ npx http-server dist      # preview at http://localhost:8080
 
 No npm dependencies are needed, just Node 18 or newer.
 
-## Cloudflare Pages settings
+## Cloudflare settings
 
-- **Framework preset:** None
-- **Build command:** `node build.mjs`
-- **Build output directory:** `dist`
-- **Environment variable:** `NODE_VERSION` = `20`
+This deploys as a Cloudflare Worker with static assets (`wrangler.jsonc`).
+
+- **Root directory:** leave blank (the repo root)
+- **Build command:** `npm run build`
+- **Deploy command:** `npx wrangler deploy`
+
+There are no npm dependencies; `npm run build` just runs `node build.mjs`, which writes the site to `dist/`.
 
 `public/_redirects` sends the old Wix URLs (`/blank-bs5hg`, `/blank-nyl51`, `/perm`) to the new pages with 301s, so existing Google results keep working.
 
